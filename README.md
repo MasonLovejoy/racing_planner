@@ -36,14 +36,14 @@ Data augmentation: Extensive augmentation pipeline for robust training
 Visualization tools: Built-in video generation for qualitative analysis  
 
 ## Quick Start
-Training a Model:
-bash# Train MLP planner  
+### Train MLP planner
+bash#  
 python3 -m racing_planner.train_planner --model_name mlp_planner --num_epoch 50
 
-# Train Transformer planner
+### Train Transformer planner
 python3 -m racing_planner.train_planner --model_name transformer_planner --lr 1e-4
 
-# Train CNN planner
+### Train CNN planner
 python3 -m racing_planner.train_planner --model_name cnn_planner --batch_size 128
 
 ## Evaluation
