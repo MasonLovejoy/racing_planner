@@ -37,7 +37,7 @@ Visualization tools: Built-in video generation for qualitative analysis
 
 ## Quick Start
 Training a Model:
-bash# Train MLP planner
+bash# Train MLP planner  
 python3 -m racing_planner.train_planner --model_name mlp_planner --num_epoch 50
 
 # Train Transformer planner
