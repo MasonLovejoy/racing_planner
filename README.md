@@ -54,11 +54,11 @@ python3 -m racing_planner.supertux_utils.evaluate --model cnn_planner --track co
 
 ## Technical Stack
 
-PyTorch: Deep learning framework
-TensorBoard: Training visualization and logging
-PySTK: SuperTuxKart Python bindings for simulation
-OpenCV: Image processing and visualization
-NumPy: Numerical computations
+PyTorch: Deep learning framework  
+TensorBoard: Training visualization and logging  
+PySTK: SuperTuxKart Python bindings for simulation  
+OpenCV: Image processing and visualization  
+NumPy: Numerical computations  
 
 ## Project Structure
 racing_planner/  
@@ -69,7 +69,7 @@ racing_planner/
 │   ├── road_dataset.py    # Data loading and processing  
 │   ├── road_transforms.py # Augmentation pipeline  
 │   └── road_utils.py      # Utility functions  
-└── supertux_utils/
+└── supertux_utils/  
     ├── evaluate.py        # Evaluation framework  
     └── video_visualization.py  # Visualization tools  
 
