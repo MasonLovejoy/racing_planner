@@ -61,7 +61,7 @@ OpenCV: Image processing and visualization
 NumPy: Numerical computations
 
 ## Project Structure
-racing_planner/
+racing_planner/  
 ├── models.py              # Model architectures  
 ├── train_planner.py       # Training pipeline  
 ├── metrics.py             # Evaluation metrics  
