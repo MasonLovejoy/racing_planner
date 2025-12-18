@@ -47,10 +47,10 @@ python3 -m racing_planner.train_planner --model_name transformer_planner --lr 1e
 python3 -m racing_planner.train_planner --model_name cnn_planner --batch_size 128
 
 ## Evaluation
-bash# Evaluate on different tracks
-python3 -m racing_planner.supertux_utils.evaluate --model mlp_planner --track lighthouse
-python3 -m racing_planner.supertux_utils.evaluate --model transformer_planner --track snowmountain
-python3 -m racing_planner.supertux_utils.evaluate --model cnn_planner --track cornfield_crossing
+bash# Evaluate on different tracks  
+python3 -m racing_planner.supertux_utils.evaluate --model mlp_planner --track lighthouse  
+python3 -m racing_planner.supertux_utils.evaluate --model transformer_planner --track snowmountain  
+python3 -m racing_planner.supertux_utils.evaluate --model cnn_planner --track cornfield_crossing  
 
 ## Technical Stack
 
